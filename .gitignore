@@ -1,0 +1,54 @@
+# Virtual environment
+venv/
+.env/
+.venv/
+conda_env/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Data files
+data/
+datasets/
+*.csv
+*.tsv
+*.json
+*.xls*
+*.parquet
+*.h5
+*.pkl
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Logs and temp files
+logs/
+*.log
+*.out
+*.err
+
+# Model artifacts
+models/
+*.h5
+*.hdf5
+*.ckpt
+*.joblib
+*.onnx
+*.tflite
+*.pb
+output/
+
+# Credentials and configurations
+*.env
+config.yaml
+config.json
+
+# Dependencies
+pip-wheel-metadata/
+*.egg-info/
+
+# IDE specific
+.vscode/
+.idea/
+*.sublime-workspace
