@@ -3,6 +3,7 @@ venv/
 .env/
 .venv/
 conda_env/
+.virtual_documents/
 
 # Python bytecode
 __pycache__/
